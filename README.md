@@ -9,7 +9,7 @@
 
 ## Cómo usar este repositorio
 
-- `starter-files/`: ejemplos y plantillas listos para abrir en Replit, JDoodle u OnlineGDB.
+- `starter-files/`: ejemplos y plantillas listos para abrir en CodePen, JSFiddle, Replit.
 - `completed-examples/`: soluciones comentadas.
 - `docs/plan-de-curso.md`: plan de curso en formato Markdown (Anexo A).
 - `scripts/`: automatizaciones (generar enlaces, empaquetar material).
