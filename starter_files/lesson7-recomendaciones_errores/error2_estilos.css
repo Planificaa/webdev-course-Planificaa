@@ -1,0 +1,46 @@
+/******************************************************************************
+Estilos para página de ejemplo: Error 2 - Anidamiento incorrecto
+******************************************************************************/
+
+/* TODO: Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+/* TODO: Contenedor principal centrado */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* TODO: Estilo de encabezado principal */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* TODO: Estilo de cada ejemplo */
+.ejemplo {
+    background-color: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* TODO: Resaltar errores con borde rojo */
+.error {
+    border-left: 5px solid #e74c3c;
+}
+
+/* TODO: Resaltar ejemplos correctos con borde verde */
+.correcto {
+    border-left: 5px solid #27ae60;
+}
+
+/* TODO: Estilo de subtítulos */
+h2 {
+    color: #555;
