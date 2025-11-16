@@ -1,0 +1,36 @@
+/******************************************************************************
+Página de ejemplo: Error 3 - Selectores CSS incorrectos
+******************************************************************************/
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 3: Selectores incorrectos</title>
+    <!-- TODO: Enlazar archivo CSS con estilos de ejemplos -->
+    <link rel="stylesheet" href="error3_estilos.css">
+</head>
+<body>
+    <div class="container">
+        <!-- TODO: Encabezado principal -->
+        <h1>Error 3: Selectores CSS incorrectos</h1>
+
+        <!-- TODO: Ejemplo con ERROR -->
+        <div class="ejemplo error">
+            <h2>Código con ERROR:</h2>
+            <p>CSS: <code>.boton-principal</code></p>
+            <p>HTML: <code>class="main-button"</code></p>
+            <!-- Nota: el botón no recibe estilos porque la clase CSS no coincide -->
+            <button class="main-botton">Botón sin estilos</button>
+        </div>
+
+        <!-- TODO: Ejemplo CORRECTO -->
+        <div class="ejemplo correcto">
+            <h2>Código CORREGIDO:</h2>
+            <p>CSS: <code>.main-button</code></p>
+            <p>HTML: <code>class="main-button"</code></p>
+            <button class="main-button">Botón con estilos</button>
+        </div>
+    </div>
+</body>
+</html>

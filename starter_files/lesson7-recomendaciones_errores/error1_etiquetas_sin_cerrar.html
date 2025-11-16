@@ -1,0 +1,34 @@
+/******************************************************************************
+Página de ejemplo: Error 1 - Etiquetas sin cerrar
+******************************************************************************/
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 1: Etiquetas sin cerrar</title>
+    <!-- TODO: Enlazar archivo CSS con estilos de ejemplos -->
+    <link rel="stylesheet" href="error1_estilos.css">
+</head>
+<body>
+    <div class="container">
+        <!-- TODO: Encabezado principal de la página -->
+        <h1>Error 1: Olvidar cerrar etiquetas</h1>
+
+        <!-- TODO: Ejemplo CORRECTO -->
+        <div class="ejemplo correcto">
+            <h2>Código CORRECTO:</h2>
+            <p>Este es un párrafo que contiene <strong>Texto importante resaltado correctamente</strong></p>
+            <p>Este es otro párrafo, no se resalta todo el texto</p>
+        </div>
+
+        <!-- TODO: Ejemplo con ERROR -->
+        <div class="ejemplo error">
+            <h2>Código con ERROR:</h2>
+            <!-- Etiqueta <strong> no cerrada correctamente -->
+            <p>Este es un párrafo que contiene <strong>Texto importante resaltado </p>
+            <p>Este es otro párrafo, se resalta todo el texto <strong>porque no se cerró la etiqueta strong</strong></p>
+        </div>
+    </div>
+</body>
+</html>

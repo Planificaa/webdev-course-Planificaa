@@ -1,0 +1,47 @@
+/******************************************************************************
+Estilos básicos para la página web
+******************************************************************************/
+
+/* TODO: Estilo general del body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* TODO: Estilos para encabezado principal */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* TODO: Estilos para encabezados secundarios */
+h2 {
+  color: #34495e;
+  margin-top: 20px;
+}
+
+/* TODO: Estilo de párrafos */
+p {
+  font-size: 16px;
+}
+
+/* TODO: Estilos para listas */
+ul {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* TODO: Estilo para imágenes */
+img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+/* TODO: Estilos para enlaces */
+a {
+  color: #2980b9;
+  font-weight:

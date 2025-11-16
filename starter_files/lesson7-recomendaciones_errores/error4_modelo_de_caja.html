@@ -1,0 +1,37 @@
+/******************************************************************************
+Página de ejemplo: Error 4 - Modelo de Caja (Box-sizing)
+******************************************************************************/
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 4: Modelo de Caja</title>
+    <!-- TODO: Enlazar archivo CSS con estilos de ejemplos -->
+    <link rel="stylesheet" href="error4_estilos.css">
+</head>
+<body>
+    <div class="container">
+        <!-- TODO: Encabezado principal -->
+        <h1>Error 4: No entender el Modelo de Caja</h1>
+
+        <!-- TODO: Ejemplo con ERROR -->
+        <div class="ejemplo error">
+            <h2>Código con ERROR:</h2>
+            <div class="caja-error">
+                Ancho total: 250px
+            </div>
+            <p>width: 200px + padding: 40px + border: 10px = 250px</p>
+        </div>
+
+        <!-- TODO: Ejemplo CORRECTO -->
+        <div class="ejemplo correcto">
+            <h2>Código CORREGIDO:</h2>
+            <div class="caja-correcta">
+                Ancho total: 200px
+            </div>
+            <p>width: 200px (incluye padding y border)</p>
+        </div>
+    </div>
+</body>
+</html>
