@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 2: Anidamiento incorrecto</title>
+    <link rel="stylesheet" href="error2_estilos.css">
+</head>
+<body>
+
+    <h1>Error 2: Anidamiento incorrecto</h1>
+
+    <div class="ejemplo error">
+        <h2>Código con ERROR:</h2>
+        <p>Este es un <span>párrafo con un <div>contenedor</div> dentro de un span</span>.</p>
+    </div>
+
+    <div class="ejemplo correcto">
+        <h2>Código CORREGIDO:</h2>
+        <p>Este es un párrafo con <span>texto resaltado.</span></p>
+        <div>Este es un contenedor independiente.</div>
+    </div>
+
+</body>
+</html>
